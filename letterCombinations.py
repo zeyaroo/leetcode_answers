@@ -23,9 +23,7 @@ class Solution(object):
  
         def getCombinations(lst):
             global output,c
-            temp=[]
             if(c==0):
-                output=[]
                 c+=1
                 for x in lst:
                     for y in x:
